@@ -1,10 +1,14 @@
+ const int buttonPin = 26;
 void setup() {
-  // put your setup code here, to run once:
-  Serial.begin(115200);
-  Serial.println("Hello, ESP32!");
-}
-
-void loop() {
-  // put your main code here, to run repeatedly:
-  delay(10); // this speeds up the simulation
-}
+ pinMode(buttonPin, INPUT);
+ Serial.begin(9600)
+   }
+  void loop() {
+ int buttonState = digitalRed(buttonPin)
+ Serial. print("Tombol ditekan: ");
+ 1f (buttonState == HIGH) {
+   Serial. printIn("YA");
+ } else {
+   Serial. printIn("TIDAK");
+ delay(100);
+  }
